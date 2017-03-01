@@ -1,0 +1,138 @@
+div {
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#calculator {
+    border: 4px outset grey;
+    border-radius: 10px;
+    width: 255px;
+    height: 400px;
+    background: linear-gradient(#EBEBEB, #ABA8A1);
+    box-shadow: 5px 10px 30px #888888;
+}
+
+#button{
+    height: 40px;
+    width: 40px;
+    background-color: azure;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #888888;
+    border-color: azure;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#button:hover, .button-link:focus {
+    background: #EDF6F7;
+    border: solid 1px #EDF6F7;
+    text-decoration: none;
+}
+
+#reset-button {
+    height: 40px;
+    width: 84px;
+    background-color: #F5D389;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #888888;
+    border-color: #F5D389;
+    margin-bottom: 5px;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#reset-button:hover, .button-link:focus {
+    background: #F7EBC6;
+    border: solid 1px #F7EBC6;
+    text-decoration: none;
+}
+
+#output-box {
+    height: 55px;
+    width: 172px;
+    font-size: 25px;
+    background: linear-gradient(#8F918E, #30302F);
+    border-color: #8F918E;
+    border-width: 4px;
+    border-style: inset;
+}
+
+#equals-button {
+    height: 40px;
+    width: 172px;
+    background-color: #F5D389;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #888888;
+    border-color: #F5D389;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#equals-button:hover, .button-link:focus {
+    background: #F7EBC6;
+    border: solid 1px #F7EBC6;
+    text-decoration: none;
+}
+
+#math-button {
+    height: 40px;
+    width: 40px;
+    background-color: #DCBAE8;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #888888;
+    border-color: #CBA9D6;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#math-button:hover, .button-link:focus {
+    background: #F7E1F2;
+    border: solid 1px #F7E1F2;
+    text-decoration: none;
+}
+
+#title {
+    margin-top: -45px;
+    margin-bottom: 45px;
+    margin-left: -33px;
+    font-family: Copperplate;
+    font-size: 14px;
+}
+
+#display-list {
+    height: 410px;
+    width: 300px;
+    font-size: 25px;
+    margin-top: -423px;
+    margin-left: 450px;
+    background: linear-gradient(#FAF8ED, #FCF9E1);
+    border-color: #8F918E;
+    border-width: 0px;
+    box-shadow: 5px 5px 25px #888888;
+}
+
+#list-header {
+    font-size: 15px;
+    text-decoration: underline;
+    font-family: cursive;
+    margin-left: 75px;
+}

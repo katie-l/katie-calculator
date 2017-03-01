@@ -1,0 +1,77 @@
+<main id="content">
+    <div>
+        <div>
+            <html>
+
+            <head>
+                <link rel="stylesheet" href="test.css">
+                <title>Katie's Calculator</title>
+            </head>
+
+            <body>
+                <script src=‘test.js’></script>
+                <div id="calculator">
+                    <form name="calculator">
+                        <br>
+                        <br>
+
+                        <ul style="list-style-type:none">
+                            <p id="title" style="color:#9E9E9E">Katie Calc ™</p>
+                            <input id="output-box" style="color:white" readonly type="textfield" name="ans" value="">
+                            <br>
+                            <br>
+                            <li>
+                                <input id="button" style="color:#212121" type="button" value="1" onClick="document.calculator.ans.value+='1'">
+                                <input id="button" style="color:#212121" type="button" value="2" onClick="document.calculator.ans.value+='2'">
+                                <input id="button" style="color:#212121" type="button" value="3" onClick="document.calculator.ans.value+='3'">
+                                <input id="math-button" style="color:#212121" type="button" value="+" onClick="document.calculator.ans.value+='+'">
+                            </li>
+
+
+                            <li>
+                                <input id="button" style="color:#212121" type="button" value="4" onClick="document.calculator.ans.value+='4'">
+                                <input id="button" style="color:#212121" type="button" value="5" onClick="document.calculator.ans.value+='5'">
+                                <input id="button" style="color:#212121" type="button" value="6" onClick="document.calculator.ans.value+='6'">
+                                <input id="math-button" style="color:#212121" type="button" value="*" onClick="document.calculator.ans.value+='*'">
+                            </li>
+
+
+                            <li>
+                                <input id="button" style="color:#212121" type="button" value="7" onClick="document.calculator.ans.value+='7'">
+                                <input id="button" style="color:#212121" type="button" value="8" onClick="document.calculator.ans.value+='8'">
+                                <input id="button" style="color:#212121" type="button" value="9" onClick="document.calculator.ans.value+='9'">
+                                <input id="math-button" style="color:#212121" type="button" value="/" onClick="document.calculator.ans.value+='/'">
+                            </li>
+
+
+                            <li>
+                                <input id="button" style="color:#212121" type="button" value="0" onClick="document.calculator.ans.value+='0'">
+                                <input id="reset-button" style="color:#212121" type="reset" value="Reset">
+                                <input id="math-button" style="color:#212121" type="button" value="-" onClick="document.calculator.ans.value+='-'">
+                            </li>
+
+
+
+                            <li>
+
+                                <input id="equals-button" style="color:#212121" type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+                            </li>
+
+                        </ul>
+                    </form>
+                </div>
+                <div id="display-list">
+                    <p id="list-header"> Previous calculations:</p>
+                    
+
+
+
+
+                </div>
+            </body>
+
+            </html>
+
+        </div>
+    </div>
+</main>
